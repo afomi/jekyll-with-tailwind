@@ -1,9 +1,9 @@
 module.exports = {
   plugins: [
-    require('tailwindcss'),
+    require('@tailwindcss/postcss'),
     require('autoprefixer'),
-    ...(process.env.JEKYLL_ENV == 'production'
+    ...(process.env.JEKYLL_ENV === 'production'
       ? [require('cssnano')({ preset: 'default' })]
-      : [])
-  ]
-}
+      : []),
+  ],
+};
