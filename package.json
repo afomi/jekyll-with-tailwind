@@ -2,12 +2,7 @@
   "name": "s3-jekyll",
   "version": "1.0.0",
   "description": "jekyll with tailwind to s3 via github actions",
-  "main": "postcss.config.js",
   "dependencies": {
-    "autoprefixer": "^10.4.22",
-    "cssnano": "^7.1.2",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.17",
     "@tailwindcss/cli": "^4.1.0"
   },
   "scripts": {
