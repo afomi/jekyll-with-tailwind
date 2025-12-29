@@ -2,10 +2,16 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # baseurl: "" # the subpath of your site, e.g. /blog
 baseurl: ""
 
-title: "" # the name of your site, e.g. ACME Corp.
+title: "Own Your Website" # the name of your site, e.g. ACME Corp.
+
+plugins:
+  - jekyll-sitemap
 
 exclude:
   - package.json
   - package-lock.json
   - postcss.config.js
   - tailwind.config.js
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
